@@ -1,0 +1,111 @@
+header{
+    background-color:#212723;
+    position: absolute;
+    height: 80px;
+    width: 1366px;
+    left: 0px;
+    top: 0px;
+
+    border: 0.5px solid #fff;
+}
+.inicio{
+    
+    color: #fff;
+    height: 20px;
+    width: 148px;
+    padding-top: 30px;
+    padding-left: 82px;
+}
+.meio{
+    color: #fff;
+    height: 45px;
+    width: 148px;
+    padding-top: 30px;
+    padding-left: 0px;
+}
+h1{
+    color: #fff;
+    font-family: Spartan;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+nav > a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #18EF6E;
+
+}
+
+
+
+.hero .presentation{
+    background-color: #212723;
+    width: 1285px;
+    padding-top: 243px;
+    padding-right: 0;
+    padding-bottom: 574px;
+    padding-left: 82px;
+
+
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 108px;
+    margin-right: 104px;
+    margin-bottom: 0;
+    margin-left: -500px;
+
+
+}
+
+.btn-gray{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px, 24px;
+    gap: 10px;
+    
+    position: absolute ;
+    width: 151px;
+    height: 44px;
+    left: 1135px;
+    top: 22px;
+
+    background-color: #181C19;
+    border-radius: 50px;
+
+    text-decoration: none;
+}
+
+.menu > a{
+    color: #18EF6E;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid;
+    border-radius: 50px;
+    width: 151px;
+    height: 44px;
+    margin-right: 72px;
+    text-decoration: none;
+}
+.menu > a:hover{
+    background-color: #181C19;
+}
+.menu > a:active{
+    color: #1E904C;
+    border: 2px solid #30AD63;
+}
+
